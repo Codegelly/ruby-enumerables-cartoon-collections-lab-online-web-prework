@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(arr)
   # Your code here
-  return arr.reduce(0) {|i| }
+  return arr.reduce(0) {|prev, i| prev += i.length > 4 ? 1 : 0} > 0
 end
 
 def long_planeteer_calls(arr)
