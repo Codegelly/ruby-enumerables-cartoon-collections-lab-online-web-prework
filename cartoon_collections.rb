@@ -7,9 +7,10 @@ def summon_captain_planet(arr)
   return arr.map{|name| "#{name.capitalize}!"}
 end
 
-#def long_planeteer_calls# code an argument here
+def long_planeteer_calls(arr)
   # Your code here
-#end
+  return arr.includes{|i| i.length > 4}
+end
 
 #def find_the_cheese# code an argument here
   # the array below is here to help
