@@ -12,7 +12,8 @@ def long_planeteer_calls(arr)
   return arr.reduce(0) {|prev, i| prev += i.length > 4 ? 1 : 0} > 0
 end
 
-#def find_the_cheese# code an argument here
+def find_the_cheese# code an argument here
+  
   # the array below is here to help
  # cheese_types = ["cheddar", "gouda", "camembert"]
-#end
+end
