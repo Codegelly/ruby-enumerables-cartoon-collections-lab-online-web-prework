@@ -14,6 +14,5 @@ end
 
 def find_the_cheese(arr)
   cheese = ["cheddar", "gouda", "camembert"]
-  # the array below is here to help
-  return arr.reduce(0) {|prev, i| prev += cheese.includes(i) ? 1 : 0} > 0
+  if 
 end
