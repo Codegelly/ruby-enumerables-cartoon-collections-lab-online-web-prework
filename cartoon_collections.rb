@@ -18,6 +18,6 @@ def find_the_cheese(arr)
     if cheese.include?(i)
       return i
     end
-  )
+  
   return nil
 end
