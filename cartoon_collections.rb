@@ -14,5 +14,8 @@ end
 
 def find_the_cheese(arr)
   cheese = ["cheddar", "gouda", "camembert"]
-  if 
+  arr.each(|i|
+    if cheese.include(i)
+  )
+  return nil
 end
